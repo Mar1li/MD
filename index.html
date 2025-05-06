@@ -1,1 +1,73 @@
-MD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marili Digital Web Creation Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Marili Digital</h1>
+    <p>Professional Web Creation Services for Small Businesses & Personal Brands</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#services">Services</a>
+      <a href="#see-my-work">See My Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Let's Build Your Dream Website</h2>
+    <p>Custom-designed, mobile-friendly, SEO-ready websites delivered fast and affordably.</p>
+    <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView();">Start Your Project</button>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m Noam Marili, a 16-year-old passionate developer skilled in HTML, CSS, JavaScript, Android, SQL, and data analytics. I bring energy, creativity, and discipline to every project, helping clients get a strong online presence. I proudly completed the 8200 Academy program in advanced computer science and am now expanding my skills into Python programming and ethical hacking.</p>
+  </section>
+
+  <section id="services" class="services">
+    <div class="service-card">
+      <h3>Custom Websites</h3>
+      <p>Personal or business websites tailored to your needs, with modern design and responsive layout.</p>
+    </div>
+    <div class="service-card">
+      <h3>Landing Pages</h3>
+      <p>High-converting landing pages for promotions, products, or special events.</p>
+    </div>
+    <div class="service-card">
+      <h3>E-Commerce Setup</h3>
+      <p>Online stores set up with seamless product display, cart, and checkout functionality.</p>
+    </div>
+    <div class="service-card">
+      <h3>SEO & Optimization</h3>
+      <p>Get found on search engines with optimized content and fast-loading pages.</p>
+    </div>
+  </section>
+
+  <section id="see-my-work" class="see-my-work">
+    <h2>See My Work</h2>
+    <p>Check out a live demo site I built: <a href="https://mar1li.github.io/Personal-Demo-Site/" target="_blank">Personal Demo Site</a>.</p>
+    <p>This showcases my design style, technical skills, and commitment to quality.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Or email me directly at <a href="mailto:noam@example.com">noam@example.com</a> or message me on <a href="https://instagram.com/noammarili" target="_blank">Instagram</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Marili Digital. All rights reserved.</p>
+  </footer>
+</body>
+</html>
